@@ -1,0 +1,241 @@
+.hide {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgba(0,0,0,0.1);
+    background-image: url(./assets/virus-bg.jpg);
+}
+
+#title {
+    margin-top: 10vh;
+    font-size: 42px;
+    font-family: 'Do Hyeon';
+    color: rgb(104, 168, 172);
+    text-shadow: 2px 2px 0px #474747;
+}
+
+#virus-img {
+    width: 35px;
+    height: 32px;
+}
+
+#buttons {
+    margin: 30px 0px 40px 0px;
+}
+
+.btn {
+    padding: 8px 1px 23px 1px;
+    border-radius: 7px;
+    width: 80px;
+    height: 10px;
+    background-color: pink;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 1px 2px #919191;
+}
+
+#instruction {
+    font-size: 15px;
+    margin-bottom: 13px;
+    color: rgb(73, 73, 73);
+}
+
+ #search-input {
+     width: 220px;
+     height: 27px;
+     border-radius: 15px;
+     text-align: left;
+     padding-left: 15px;
+     font-size: 15px;
+     border: 1px solid rgb(165, 165, 165);
+     background-color: white;
+     margin-bottom: 5px;
+     box-shadow: 1px 2px #919191;
+ }
+
+ #search-btn, #restart-test, #search-restart, #restartTestBtn {
+    width: 58px;
+    height: 28px;
+    font-size: 12px;
+    background-color: rgb(153, 215, 218);
+    border-radius: 7px;
+    margin-top: 10px;
+    box-shadow: 1px 2px #919191;
+    margin-bottom: 20px;
+ }
+
+ .go-btn {
+    width: 55px;
+    height: 27px;
+    font-size: 12px;
+    border-radius: 7px;
+    background-color: rgb(153, 215, 218);
+    margin-top: 15px;
+    box-shadow: 1px 2px #919191;
+    margin-bottom: 20px;
+ }
+
+ .button {
+    width: 52px;
+    height: 32px;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: rgb(153, 215, 218);
+    margin: 15px 5px 2px 5px;
+    box-shadow: 1px 2px #919191;
+ }
+
+ .api-info {
+     margin-top: 100px;
+     font-size: 25px;
+ }
+
+ #country-name {
+     font-size: 22px;
+     margin: 0px 5px 25px 5px;
+ }
+
+ .gap {
+     font-size: 15px;
+     margin-bottom: 2px;
+ }
+
+ .selected {
+    background-color: rgb(255, 132, 152);
+ }
+
+ #error-msg {
+     font-size: 13px;
+     color: red;
+     margin-top: 20px;
+ }
+
+ .question {
+     font-size: 15px;
+     margin: 40px 15px 0px 15px;
+     padding: 10px 5px 0px 5px;
+     margin: 0px 25px 15px 25px;
+ }
+
+ .italics {
+     font-style: italic;
+     text-align: left;
+ }
+
+ #small-reco {
+     font-size: 10px;
+     font-style: italic;
+     text-align: left;
+ }
+
+#results {
+    margin-top: 15px;
+    color: rgb(43, 43, 43);
+    font-size: 15px;
+    font-style: italic;
+}
+
+i {
+    float: left;
+}
+
+a {
+    color: rgb(220, 66, 92);
+    text-decoration: none;
+}
+
+.resources-title {
+    font-size: 17px;    
+}
+
+#helpline {
+    text-align: left;
+    font-size: 10px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#tests-title {
+    margin-top: 40px;
+}
+
+.each-test {
+    padding-top: 1px;
+    padding-bottom: 3px;
+    margin: 0px 25px 20px 25px;
+    background-color: rgb(255, 214, 221);
+    box-shadow: 2px 4px #919191;
+}
+
+#title1-1, #title2-2 {
+    background-color: rgb(255, 214, 221);
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitle {
+    background-color: rgb(255, 214, 221);
+    font-size: 12px;
+    font-style: italic;
+}
+
+#showAnswers1stTest, #showAnswers2ndTest {
+    margin: 0px 15px 0px 15px;
+    font-size: 15px;
+    font-style: italic;
+    padding: 0px 0px 10px 0px;
+    font-family: sans-serif;
+}
+
+#search-stats-div {
+    padding-top: 20px;
+    margin: 0px 25px 20px 25px;
+    background-color: rgb(255, 214, 221);
+    box-shadow: 2px 4px #919191;
+}
+
+#tests-and-btns-div {
+    padding-top: 15px;
+    margin: 0px 25px 15px 25px;
+    background-color: rgb(255, 214, 221);
+    box-shadow: 2px 4px #919191;
+}
+
+#symptoms-div, #resources-div {
+    padding-top: 1px ;
+    margin: 0px 15px 0px 20px;
+    background-color: rgb(255, 214, 221);
+    box-shadow: 2px 4px #919191;
+}
+
+#symptoms-info, #resources-info {
+   margin: 15px 15px 0px 15px;
+   text-align: left;
+   font-size: 13px;
+   padding-bottom: 15px;
+}
+
+#symptoms-title {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#resources-div, #resources-info {
+    margin-bottom: 30px;
+}
+
+#error-msg {
+    padding-bottom: 25px;
+}
