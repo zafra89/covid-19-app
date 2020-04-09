@@ -67,7 +67,11 @@ function displayData() {
   if (data.results > 0) {
     searchInput.classList.add('hide');
     searchBtn.classList.add('hide');
-    instruction.classList.add('hide')
+    instruction.classList.add('hide');
+  if (data.response[0].deaths.new = 'null') {
+    data.response[0].deaths.new = 0;
+  }
+  console.log(data.response[0].deaths.new)
     showInfo.innerHTML = `
     <h1 id='country-name'>Covid-19 stats from ${searchInput.value.toUpperCase()}</h1>
     <div class='gap'> ${'Date:'.bold()} ${data.response[0].day}</div>
