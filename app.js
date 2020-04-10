@@ -104,66 +104,6 @@ function displayData() {
   })
 }))}
 
-/*function noNull(data) {
-  searchInput.classList.add('hide');
-  searchBtn.classList.add('hide');
-  instruction.classList.add('hide');
-  showInfo.innerHTML = `
-  <h1 id='country-name'>Covid-19 stats from ${searchInput.value.toUpperCase()}</h1>
-  <div class='gap'> ${'Date:'.bold()} ${data.response[0].day}</div>
-  <div class='gap'>${'Total Cases:'.bold()} ${String(data.response[0].cases.total)}</div>
-  <div class='gap'>${'Today Cases:'.bold()} ${String(data.response[0].cases.new)} </div>
-  <div class='gap'>${'Total Deaths:'.bold()} ${String(data.response[0].deaths.total)}</div>
-  <div class='gap'>${'Today Deaths:'.bold()} ${String(data.response[0].deaths.new)}</div>
-  <button id='search-restart'>Restart</button>
-  `
-}
-
-function deathsNull(data) {
-  searchInput.classList.add('hide');
-  searchBtn.classList.add('hide');
-  instruction.classList.add('hide');
-  showInfo.innerHTML = `
-  <h1 id='country-name'>Covid-19 stats from ${searchInput.value.toUpperCase()}</h1>
-  <div class='gap'> ${'Date:'.bold()} ${data.response[0].day}</div>
-  <div class='gap'>${'Total Cases:'.bold()} ${String(data.response[0].cases.total)}</div>
-  <div class='gap'>${'Today Cases:'.bold()} ${String(data.response[0].cases.new)} </div>
-  <div class='gap'>${'Total Deaths:'.bold()} ${String(data.response[0].deaths.total)}</div>
-  <div class='gap'>Today Deaths: 0</div>
-  <button id='search-restart'>Restart</button>
-  `
-}
-
-function casesNull(data) {
-  searchInput.classList.add('hide');
-  searchBtn.classList.add('hide');
-  instruction.classList.add('hide');
-  showInfo.innerHTML = `
-  <h1 id='country-name'>Covid-19 stats from ${searchInput.value.toUpperCase()}</h1>
-  <div class='gap'> ${'Date:'.bold()} ${data.response[0].day}</div>
-  <div class='gap'>${'Total Cases:'.bold()} ${String(data.response[0].cases.total)}</div>
-  <div class='gap'>Today Cases: 0</div>
-  <div class='gap'>${'Total Deaths:'.bold()} ${String(data.response[0].deaths.total)}</div>
-  <div class='gap'>${'Today Deaths:'.bold()} ${String(data.response[0].deaths.new)}</div>
-  <button id='search-restart'>Restart</button>
-  `
-}
-
-function deathsAndCasesNull(data) {
-  searchInput.classList.add('hide');
-  searchBtn.classList.add('hide');
-  instruction.classList.add('hide');
-  showInfo.innerHTML = `
-  <h1 id='country-name'>Covid-19 stats from ${searchInput.value.toUpperCase()}</h1>
-  <div class='gap'> ${'Date:'.bold()} ${data.response[0].day}</div>
-  <div class='gap'>${'Total Cases:'.bold()} ${String(data.response[0].cases.total)}</div>
-  <div class='gap'>Today Cases: 0</div>
-  <div class='gap'>${'Total Deaths:'.bold()} ${String(data.response[0].deaths.total)}</div>
-  <div class='gap'>Today Deaths: 0</div>
-  <button id='search-restart'>Restart</button>
-  `
-}*/
-
 buttons.forEach(btn => btn.addEventListener('click', (e) => {
     if (e.target.value === 'stats') {
         searchInput.value = '';
